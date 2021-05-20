@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Jenkins Plugine Upgrade') {
+            steps {
+                echo 'Jenkins Plugin Upgarde is running successfully'
+            }
+        }
+    }
+}
