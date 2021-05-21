@@ -47,7 +47,7 @@ check_status
 
 #copy the downloaded Jenkins plugins to Jenkins plugin Directory
 ##This Step requires sudo access
-cp *.jpi $JENKINS_PLUGIN_DIRECTORY
+#cp *.jpi $JENKINS_PLUGIN_DIRECTORY
 chmod 644 /var/lib/jenkins/plugins/*.jpi
 chown jenkins:jenkins /var/lib/jenkins/plugins/*.jpi
 rm /tmp/plugins.txt
